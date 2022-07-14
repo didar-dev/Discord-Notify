@@ -7,10 +7,6 @@ with this bot you can get a message via Discord webhooks to know your friend is 
 
 first install dependencies with Npm install 
 
-{
- "discord.js": "^13.8.1",
-    "node-fetch": "^2.6.7"
-    }
 
 all you have to do is 
 in a server that both you and the user you want track is member
