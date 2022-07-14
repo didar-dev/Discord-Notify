@@ -5,7 +5,7 @@ Discord-Notify - send me a message when my Best Friend Comes online
 
 with this bot you can get a message via Discord webhooks to know your friend is online 
 
-first install dependencies with Npm install 
+first install dependencies with npm install 
 
 
 all you have to do is 
