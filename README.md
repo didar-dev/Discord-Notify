@@ -5,6 +5,13 @@ Discord-Notify - send me a message when my Best Friend Comes online
 
 with this bot you can get a message via Discord webhooks to know your friend is online 
 
+first install dependencies with Npm install 
+
+{
+ "discord.js": "^13.8.1",
+    "node-fetch": "^2.6.7"
+    }
+
 all you have to do is 
 in a server that both you and the user you want track is member
 Go to Server settings - Widget
@@ -25,3 +32,10 @@ Like this
 
 ![image](https://user-images.githubusercontent.com/70973049/179100809-24635f18-b646-4792-86b7-03b6086dd39f.png)
 
+
+
+
+and thats Done  
+
+You can use PM2 to run index.js 
+or simple node index.js
