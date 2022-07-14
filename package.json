@@ -1,0 +1,15 @@
+{
+  "name": "tracker",
+  "version": "1.0.0",
+  "description": " the is a simple bot to track a member status via the discord widget json api  and send to your private server with discord webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Didar.dev",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "node-fetch": "^2.6.7"
+  }
+}
