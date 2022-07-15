@@ -11,16 +11,15 @@ const getData = async () => {
   const data = await fetchedData.json();
   return data;
 };
-//its just check every 3 seconds -- discord json API have delay of 5 minutes
+//its just check every one minute -- discord json API have delay of 5 minutes
 // but you can change it to any time you want (in miliseconds) to check
-const track_time = 3000;
+const track_time = 60000;
 // change target_username to your username or anyone you wanna track
 // the user should be in the server you get the widget and have permission to see the channel of weidget
 const target_username = "Lawa";
 let color_status = "#0099ff";
-let last_status = "N/A";
 var current = new Date();
-
+var idk = "idk";
 function Track() {
   getData().then((data) => {
     const Lawa = data.members.find(
@@ -39,13 +38,13 @@ function Track() {
       if (Lawa.status === "offline") {
         color_status = "#000000";
       }
-      if (last_status !== Lawa.status) {
-        last_status = Lawa.status;
+      if (idk === "idk") {
         console.log(
           `${current.toLocaleTimeString()} >>  ${target_username} is ${
             Lawa.status
           } now `
         );
+
         webhookClient.send({
           username: Lawa.username,
           avatarURL: Lawa.avatar_url,
